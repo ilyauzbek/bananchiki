@@ -12,8 +12,10 @@
     background-image: url(./index-background-desktop.png);
     background-position: right;
     background-repeat: no-repeat;
-    height: 700px;
     width: 100%;
+
+
+
 
 
 
@@ -21,6 +23,7 @@
 }
 
 .lomenu {
+    justify-content: center;
     display: flex;
     gap: 460px;
     align-items: center;
@@ -211,9 +214,14 @@
         line-height: 60px;
         padding-top: 71px;
         padding-bottom: 32px;
-        padding-left: 110px;
+        padding-left: 100px;
+        text-align: center;
+
+
     }
 }
+
+
 
 .wrap3 {
     display: flex;
@@ -229,6 +237,7 @@
     background-repeat: no-repeat;
     width: 230px;
     height: 280px;
+
     p {
         font-size: 16px;
         font-weight: 400;
@@ -237,17 +246,19 @@
         padding-top: 31px;
     }
 
-    img{
+    img {
         padding-top: 40px;
     }
 }
-.work2{
+
+.work2 {
     background-image: url(./2.png);
     background-position-x: 90px;
     background-position-y: 30px;
     background-repeat: no-repeat;
     width: 230px;
     height: 280px;
+
     p {
         font-size: 16px;
         font-weight: 400;
@@ -256,17 +267,19 @@
         padding-top: 31px;
     }
 
-    img{
+    img {
         padding-top: 40px;
     }
 }
-.work3{
+
+.work3 {
     background-image: url(./3.png);
     background-position-x: 90px;
     background-position-y: 30px;
     background-repeat: no-repeat;
     width: 230px;
     height: 280px;
+
     p {
         font-size: 16px;
         font-weight: 400;
@@ -275,18 +288,20 @@
         padding-top: 31px;
     }
 
-    img{
+    img {
         padding-top: 40px;
     }
 
 }
-.work4{
+
+.work4 {
     background-image: url(./4.png);
     background-position-x: 90px;
     background-position-y: 30px;
     background-repeat: no-repeat;
     width: 230px;
     height: 280px;
+
     p {
         font-size: 16px;
         font-weight: 400;
@@ -295,8 +310,146 @@
         padding-top: 31px;
     }
 
-    img{
+    img {
         padding-top: 40px;
     }
 
+}
+
+.section4 {
+    font-family: "Oswald", sans-serif;
+
+
+
+
+}
+
+.svg {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.wrap4 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 130px;
+
+    border: 2px solid #f2f2f2;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 500px;
+}
+
+
+.block4 {
+
+    flex-direction: column;
+    padding-bottom: 74px;
+    padding-left: 110px;
+    padding-right: 130px;
+
+
+    h2 {
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 60px;
+        padding-top: 70px;
+        padding-bottom: 145px;
+    }
+
+
+}
+
+.pp {
+    display: flex;
+    justify-content: center;
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #444444;
+        padding-bottom: 70px;
+    }
+}
+
+.modules {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}
+
+.module1 {
+    width: 162px;
+    height: 77px;
+    border: 2px solid #cdcdcd;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+
+    h4 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 37px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 5px;
+
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        color: #444444;
+        text-align: center;
+    }
+}
+
+.money {
+    display: flex;
+    justify-content: left;
+    gap: 60px;
+
+    h4 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-top: 55px;
+
+    }
+}
+
+.before {
+    background-image: url(./image_cat_desktop.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 650px;
+}
+
+.after {
+    padding-bottom: 67px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    h4 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 29.64px;
+        padding-top: 555px;
+
+    }
+
+    div {
+        img {
+            width: 384px;
+            height: 34px;
+            padding-top: 555px;
+        }
+    }
 }
